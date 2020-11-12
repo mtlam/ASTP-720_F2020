@@ -11,6 +11,8 @@ emcee and corner packages installed on your machine.
 import numpy as np
 from matplotlib.pyplot import *
 from matplotlib import rc
+import emcee
+import corner
 
 # Make more readable plots
 rc('font',**{'size':14})
