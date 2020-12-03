@@ -43,7 +43,7 @@ def fft(h_n, threshold=16):
         # Use slice indexing to get the even and odd parts of h_n
         h_n_even = h_n[::2]
         h_n_odd = h_n[1::2]
-        # Recursively call FFT()
+        # Recursively call fft()
         E_k = fft(h_n_even)
         O_k = fft(h_n_odd)
         # Now combine, with w^k, make this an array for ease
